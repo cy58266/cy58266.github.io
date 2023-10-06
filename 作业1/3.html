@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>3.html</title>
+</head>
+<body>
+    <h4>填写注册信息</h4>
+    <form action="" method="post">
+        姓名:<input type="text" name="username" /><br>
+        电话:<input type="text" name="tel" size="20" /><br>
+        地址:<input type="text" name="address" size="30" maxlength="50" /><br>
+        邮编:<input type="text" name="pc" size="5" maxlength="6" /><br>
+        web主页:<input type="text" name="url" value="http://" /><br>
+    </form>
+</body>
+<body>
+    <br>输入用户名和密码
+    <form action="login.jsp">
+        姓名:<input type="text" name="user_name" /><br>
+        密码:<input type="password" name="psw" size="21" /><br>
+    </form>
+</body>
+<body>
+    <br>
+    <form enctype="multipart/form-data" method="post">
+        请上传照片:<input type="file" name="photo"/>
+    </form>
+    <br> 
+</body>
+<body>
+    <form>
+        性别:<input type="radio" value="female" name="gender" checked="">女
+             <input type="radio" value="male" name="gender">男<br>
+        爱好:<input type="checkbox" value="music" name="m1">音乐
+             <input type="checkbox" value="trip" nmae="m2">旅游
+             <input type="checkbox" value="reading" name="m3">阅读
+             <input type="checkbox" value="游戏" name="m4">CSGO
+    </form><br>
+</body>
+</html>
